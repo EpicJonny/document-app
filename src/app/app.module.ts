@@ -3,7 +3,8 @@ import { FormsModule } from '@angular/forms';
 // ...other imports
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 
-const config: SocketIoConfig = { url: 'http://localhost:4444', options: {} };
+// const config: SocketIoConfig = { url: 'http://localhost:4444', options: {} };
+const config: SocketIoConfig = { url: 'https://afternoon-crag-22355.herokuapp.com/', options: {} };
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
